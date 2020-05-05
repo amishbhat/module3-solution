@@ -1,0 +1,109 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color:#ffffff ;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #cccccc;
+  border-radius: 0;
+  border: 2px solid black;
+  margin-bottom: 0;
+  height:70px !important;
+}
+
+.navbar-header{
+
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height:30px;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+  
+  background: #cccccc;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.title-of-content{
+	font-size: 1.75em;
+	background: #ffffff ;
+}
+.content{
+	width:90%;
+	background: #cccccc;
+	border:2px solid black;
+	padding:10px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right:auto;
+}
+button{
+	color: black;
+}
+.icon-bar{
+	colour:black;
+}
+.inner-title{
+	font-size: 1.5em;
+	font-weight:bold;
+}
+#collapsable-nav{
+	background: #cccccc;
+}
+a.options{
+	font-size: 1.5em;
+	font-color:black;
+	border-bottom: 1px solid black;
+}
